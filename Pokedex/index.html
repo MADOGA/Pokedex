@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <div>
+        <img src="./pics/pokedex_vector_logo_by_macoscrazy_d5uxsvu-fullview.png" alt="Pokedex">
+    </div>
+</header>
+<main>
+    <section class="section1">
+        <div class="container-poke">
+            <input id="pokemon-name" placeholder="Escribe el nombre de un Pokémon">
+            <button id="atrapalo-btn">¡Atrápalo YA!</button>
+            <br />
+            <span id="loading-msg" class="hidden">...Buscando a tu Pokémon</span>
+            <br />
+            <span id="error-message"></span>
+            <div id="pokemon-display-data" class="user-card hidden">
+            <p>Pokémon Data</p>
+            </div>
+        </div>
+        <div class="container-ash">
+            <img class="ash-img" src="./pics/1200px-Ash_(Pocket_Monsters).png" alt="Ash Ketchum">
+        </div>
+    </section>
+    <section class="section2">
+        </div class="container-historial">
+            <hr>
+                <h3>Pokémon encontrados</h3>
+                <ul id="historial"></ul>
+            <hr>
+        
+        <button id="clear-historial">LIMPIAR HISTORIAL</button>  
+    </section>  
+</main>
+
+
+<script src="./index.js"></script>
+</body>
+</html>
